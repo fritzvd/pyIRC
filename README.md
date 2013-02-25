@@ -16,6 +16,6 @@ Forked from the [pyirclogs](https://code.google.com/p/pyirclogs/) project. Credi
 License
 =======
 
-All of this is licensed under the **GPL2**, avaliable [online](http://www.gnu.org/licenses/gpl-2.0.html) and [locally](./LICENSE.html).
+All of this is licensed under the **GPL2**, avaliable [online](http://www.gnu.org/licenses/gpl-2.0.html) and [locally](./LICENSE).
 
 So feel free to customize, comment, fork, pull-request or anything that you want to.

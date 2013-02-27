@@ -1,10 +1,28 @@
 # -*- coding: utf-8 -*-
+
+
+import os
+
 import webapp2
+import jinja2
+
+import pyirclogs
+
+jinja_environment = jinja2.Environment(
+    loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
+
 
 class MainPage(webapp2.RequestHandler):
-  def get(self):
-      self.response.headers['Content-Type'] = 'text/plain'
-      self.response.write('Hello, webapp2 World!')
+    def get(self):
+        path = './logs' + self.request.path
+        b = os.path.exists(path)
+        os.makedirs([])
 
-app = webapp2.WSGIApplication([('/', MainPage)],
+        template_values = {}
+
+        self.response.out.write('<html><body>%s: %s</body></html>' % (path, str(b)))
+        #template = jinja_environment.get_template('templates/DirPage.html')
+        #self.response.out.write(template.render(template_values))
+
+app = webapp2.WSGIApplication([('/.*', MainPage)],
                               debug=True)

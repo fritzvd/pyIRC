@@ -1,17 +1,19 @@
-Ninja IDE IRC
-=============
+pyIRC
+-----
 
-Just a simple IRC Logging bot combined with a web front-end. It uses Python and AppEngine and open for development.
+Just a simple IRC Logging bot combined with a web front-end. It uses Python and AppEngine and is open for development.
 
-It's not _specifically_ tailored to Ninja, that's just the channel I use it for. You can customize it to log any channel on any server.
+I use the [Ninja IDE](http://github.com/ninja-ide/ninja-ide) channel as placeholder code and in the linked site, but you can customize it to log any channel on any server.
+
+Documentation
+============
+
+Honestly, there's not enough code here to justify documenting it. But there's the best documentation of all, just UTSL :)
 
 Credits
 =======
 
-Forked from the [pyirclogs](https://code.google.com/p/pyirclogs/) project. Credits go to:-
-- Chris Oliver <excid3@gmail.com>, who wrote most of the base code
-- Harry Strongburg <lolwutaf2@gmail.com>, who heavily modified it
-- Me (Yatharth Agarwal) <yatharth999@gmail.com>, who dressed it up and wrote the web front-end
+Special thanks to the writers of [Python IRCLib](http://python-irclib.sourceforge.net/), an extremely useful event-driven IRC client framework without whose abstractions this project would take 3 times more time to write.
 
 License
 =======

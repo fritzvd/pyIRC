@@ -1,5 +1,8 @@
-pyIRC
+PyIRC
 =====
+
+Overview
+--------
 
 Just a simple IRC Logging bot combined with a web front-end. It uses Python and AppEngine and is open for development.
 

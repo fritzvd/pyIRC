@@ -1,14 +1,5 @@
 # Python compiled files
 *.py[cod]
 
-# gEdit temporary files
-*~
-
 # Ninja project files
 *.nja
-
-# previous logs
-logs/*
-
-# hack to add logs folder
-!.gitignore
